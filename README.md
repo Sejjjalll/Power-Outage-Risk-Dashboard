@@ -125,7 +125,8 @@ All saved notebook visuals are included in `dashboards/screenshots/`.
 
 
 #### Model comparison
-![Model Comparison by Test PR-AUC](dashboards/screenshots/model-comparison-by-test-pr-auc.png)
+<img width="975" height="484" alt="image" src="https://github.com/user-attachments/assets/00b793f4-3f87-42a4-ae4a-51a37ffb956a" />
+
 
 #### Best model confusion matrix
 <img width="667" height="601" alt="image" src="https://github.com/user-attachments/assets/dfddd7d1-d36c-42ea-858e-4ea51bab4d44" />
