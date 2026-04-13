@@ -1,174 +1,114 @@
-# Power Outage Risk Analysis
+# ⚡ Power Outage Risk Analysis
 
-An end-to-end analytics project that combines **EIA-861 utility reliability data** with **NOAA storm event records** to evaluate outage risk across U.S. utilities and generate state-level risk rankings.
+A data project on how utility reliability and storm exposure come together across the U.S.
 
-The project uses **SAIDI**, **SAIFI**, and related reliability measures to identify higher-risk regions, compare outage outcomes against storm exposure, and produce dashboard-ready outputs for interactive analysis.
+I built this project to look past the usual “bad weather causes outages” explanation and ask a better question:  
+**which states and utilities seem to perform worse than weather exposure alone would suggest?**
 
----
-
-## Overview
-
-Power outage performance is influenced by more than weather alone. This project integrates utility reliability data with storm event records to examine where outage duration and frequency appear disproportionately high relative to storm severity.
-
-The workflow covers:
-
-- large-scale data cleaning and integration
-- outage reliability analysis across 3,000+ U.S. utilities
-- state-level risk scoring using SAIDI and SAIFI thresholds
-- dashboard dataset creation in CSV and Parquet formats
-- visual analysis using Plotly and Matplotlib
-- optional utility-level predictive modeling
+Using **EIA-861 reliability data** and **NOAA storm records**, I combined outage and weather signals for **3,000+ U.S. utilities**, created a clean analysis dataset, built state-level risk views, and prepared dashboard outputs for easier exploration.
 
 ---
 
-## Project Objectives
+## ✨ What this project does
 
-- Analyze outage reliability across U.S. utilities
-- Create state-level outage risk rankings
-- Compare storm severity with outage duration and interruption frequency
-- Highlight states where outage performance appears worse than storm exposure alone would suggest
-- Automate the workflow from raw input data to dashboard-ready outputs
-
----
-
-## Dataset
-
-**Sources**
-- EIA-861 utility reliability data
-- NOAA Storm Events data
-
-**Dataset Link**
-- [Google Drive Dataset](https://drive.google.com/file/d/1ppvx0fkmi1QdsbZOnhZ-LAEc-BPF52DS/view?usp=drive_link)
-
-**Primary fields used**
-- Utility Number
-- Utility Name
-- State
-- Ownership
-- NERC Region
-- County_Count
-- Counties_Served
-- IEEE_AllEvents_SAIDI_min_per_yr
-- IEEE_AllEvents_SAIFI_times_per_yr
-- IEEE_AllEvents_CAIDI_min_per_interruption
-- IEEE_NoMED_SAIDI_min_per_yr
-- IEEE_NoMED_SAIFI_times_per_yr
-- IEEE_NoMED_CAIDI_min_per_interruption
-- EVENT_TYPE
-- CZ_NAME
-- MONTH_NAME
-- YEAR
-- BEGIN_DATE_TIME
-- END_DATE_TIME
-- MAGNITUDE
-- Property damage and crop damage fields
-- Injury and fatality fields
+- combines utility reliability data with storm event records
+- cleans and reshapes the merged data for analysis
+- uses **SAIDI** and **SAIFI** to create outage risk signals
+- assigns utilities into **High / Medium / Low Risk** groups
+- builds state-level comparisons for outage risk
+- prepares dashboard-ready files in **CSV** and **Parquet**
+- explores whether high-risk utilities can also be identified with machine learning
 
 ---
 
-## Tech Stack
+## 🧭 Why I built it
 
-- Python
-- Pandas
-- NumPy
-- Plotly
-- Matplotlib
-- Scikit-learn
-- Jupyter Notebook
-- EIA-861
-- NOAA Storm Events
+Power systems are usually discussed in broad terms, but I wanted to make the analysis more concrete.
+
+This project helped me explore:
+- where outage performance is consistently weak
+- how storm severity relates to outage duration and frequency
+- which states deserve a closer look from a resilience or infrastructure lens
+- how to turn a heavy raw dataset into something clean enough for dashboards and repeatable analysis
 
 ---
 
-## Methodology
+## 📊 Project highlights
 
-### 1. Data Preparation
-- Loaded the merged utility-storm dataset
-- Selected dashboard-relevant columns
-- Removed unnecessary fields
-- Filtered the dataset to the 50 U.S. states
-
-### 2. Data Cleaning
-- Standardized data types
-- Handled missing values
-- Optimized processing for large files using chunked loading
-- Exported cleaned datasets for downstream analysis
-
-### 3. Reliability Analysis
-- Analyzed outage reliability using SAIDI, SAIFI, and CAIDI
-- Calculated utility-level percentile ranks for outage performance
-- Built a composite outage risk score
-- Grouped utilities into risk categories
-
-### 4. Geographic Risk Ranking
-- Aggregated metrics at the state level
-- Created state-level risk views based on reliability thresholds
-- Compared outage performance across regions
-
-### 5. Visualization and Dashboard Preparation
-- Produced dashboard-ready CSV and Parquet outputs
-- Built visuals to compare outage metrics and storm exposure
-- Prepared data for interactive dashboard exploration
-
-### 6. Predictive Modeling
-The notebook also includes a modeling section to classify high-risk utilities using:
-- Logistic Regression
-- Random Forest
-- Extra Trees
-
-Additional analysis includes:
-- model comparison
-- feature importance
-- error analysis
-- sensitivity testing for top-risk utility definitions
+- merged reliability and storm data for **3,000+ U.S. utilities**
+- created **state-level risk rankings**
+- used **SAIDI** and **SAIFI** thresholds to flag higher-risk utilities
+- compared storm severity with outage performance
+- highlighted **4 states** where outage outcomes looked worse than storm exposure alone would suggest
+- reduced repeated manual prep to a **single workflow run**
 
 ---
 
-## Key Metrics
+## 🗂️ Data sources
 
-### Reliability Metrics
-- **SAIDI** — System Average Interruption Duration Index
-- **SAIFI** — System Average Interruption Frequency Index
-- **CAIDI** — Customer Average Interruption Duration Index
+- **EIA-861** utility reliability data
+- **NOAA Storm Events** data
 
-### Storm and Impact Metrics
-- Event type
-- Magnitude
-- Property damage
-- Crop damage
-- Injuries
-- Fatalities
-- Monthly event patterns
-
-### Derived Metrics
-- SAIDI percentile rank
-- SAIFI percentile rank
-- Composite outage risk score
-- Risk category labels
-- State-level high-risk counts
+**Dataset:**  
+[Google Drive dataset link](https://drive.google.com/file/d/1ppvx0fkmi1QdsbZOnhZ-LAEc-BPF52DS/view?usp=drive_link)
 
 ---
 
-## Key Outputs
+## 🧪 Main metrics used
 
-This project generates:
+### Reliability
+- **SAIDI** — outage duration
+- **SAIFI** — outage frequency
+- **CAIDI** — average interruption duration
 
-- cleaned dashboard dataset in CSV format
-- cleaned dashboard dataset in Parquet format
-- state-level outage risk analysis
-- utility-level risk scoring outputs
-- model comparison results
-- feature importance summaries
-- error analysis files
-- sensitivity testing outputs
+### Storm / impact signals
+- event type
+- magnitude
+- property damage
+- crop damage
+- injuries
+- deaths
+- month / timing patterns
+
+### Derived fields
+- percentile-based SAIDI rank
+- percentile-based SAIFI rank
+- composite risk score
+- risk category label
+- state-level risk summaries
 
 ---
 
-## Dashboard Preview
+## 🛠️ Tools used
 
-Add your dashboard screenshots in this section.
+`Python` `Pandas` `NumPy` `Plotly` `Matplotlib` `Scikit-learn` `Jupyter Notebook`
+
+---
+
+## 🧱 Project flow
+
+### 1) Merge and clean
+I started with a merged utility-storm dataset, kept only the columns needed for analysis, standardized field types, and filtered the data to the **50 U.S. states**.
+
+### 2) Create risk signals
+To make the reliability comparison more useful, I calculated percentile-based rankings from **SAIDI** and **SAIFI**, then combined them into a single outage risk score.
+
+### 3) Build dashboard-ready data
+The cleaned dataset was saved in both **CSV** and **Parquet** format so it could be used easily in dashboards and follow-up analysis.
+
+### 4) Explore patterns by state
+I looked at outage risk across states and compared storm exposure with outage outcomes to surface places that may be underperforming.
+
+### 5) Model high-risk utilities
+As an extension, I also tested a few models to see whether utilities in the higher-risk group could be identified from storm and utility features.
+
+---
+
+## 🖼️ Dashboard preview
+
+Add your screenshots here once uploaded.
 
 ```md
 ![Dashboard Overview](dashboards/screenshots/dashboard-overview.png)
 ![State Risk Map](dashboards/screenshots/state-risk-map.png)
-![SAIDI vs SAIFI Scatter](dashboards/screenshots/saidi-saifi-scatter.png)
+![SAIDI vs SAIFI](dashboards/screenshots/saidi-saifi-scatter.png)
