@@ -103,8 +103,12 @@ All saved notebook visuals are included in `dashboards/screenshots/`.
 
 ### Preview
 
+<img width="1896" height="795" alt="image" src="https://github.com/user-attachments/assets/cf783406-1d3d-4716-931a-698d273b84ae" />
+
+
 #### Risk category distribution
-![Risk Category Distribution](dashboards/screenshots/risk-category-distribution.png)
+<img width="1882" height="872" alt="image" src="https://github.com/user-attachments/assets/658ebdf6-dc5e-4968-b3c3-1a1d8a914000" />
+
 
 #### SAIDI vs SAIFI
 ![SAIDI vs SAIFI](dashboards/screenshots/saidi-vs-saifi.png)
