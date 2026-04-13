@@ -103,7 +103,9 @@ All saved notebook visuals are included in `dashboards/screenshots/`.
 
 ### Preview
 
-<img width="1896" height="795" alt="image" src="https://github.com/user-attachments/assets/cf783406-1d3d-4716-931a-698d273b84ae" />
+<img width="1891" height="799" alt="image" src="https://github.com/user-attachments/assets/52c2308e-4f3e-4b54-90f4-039a9a0a2763" />
+<img width="1893" height="131" alt="image" src="https://github.com/user-attachments/assets/ed0384c0-0beb-4462-abe3-4e2fe4a3e63e" />
+
 
 
 #### Risk category distribution
