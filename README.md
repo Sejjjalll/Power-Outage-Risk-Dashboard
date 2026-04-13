@@ -103,44 +103,29 @@ All saved notebook visuals are included in `dashboards/screenshots/`.
 
 ### Preview
 
-<img width="1891" height="799" alt="image" src="https://github.com/user-attachments/assets/52c2308e-4f3e-4b54-90f4-039a9a0a2763" />
-<img width="1893" height="131" alt="image" src="https://github.com/user-attachments/assets/ed0384c0-0beb-4462-abe3-4e2fe4a3e63e" />
-
-
-
 #### Risk category distribution
-<img width="1883" height="792" alt="Screenshot 2026-04-13 155828" src="https://github.com/user-attachments/assets/65b3ce3a-3ce4-471c-9395-977ea90e62cc" />
-
-
+![Risk Category Distribution](dashboards/screenshots/risk-category-distribution.png)
 
 #### SAIDI vs SAIFI
-<img width="1882" height="872" alt="image" src="https://github.com/user-attachments/assets/caa64123-e6a9-4083-bdd1-14a0bd719b9b" />
-
+![SAIDI vs SAIFI](dashboards/screenshots/saidi-vs-saifi.png)
 
 #### Top event types
-<img width="1880" height="402" alt="image" src="https://github.com/user-attachments/assets/312507af-8ff0-44fc-8cad-91dd45280ded" />
-
+![Top 15 Event Types](dashboards/screenshots/top-15-event-types.png)
 
 #### Monthly average SAIDI trend
-<img width="1899" height="406" alt="image" src="https://github.com/user-attachments/assets/337d6d5d-583c-4b33-b1b5-c84b58516676" />
-<img width="1894" height="614" alt="image" src="https://github.com/user-attachments/assets/edf999eb-823d-4cce-abdc-87a4d8fcab31" />
-
+![Monthly Average SAIDI Trend](dashboards/screenshots/monthly-average-saidi-trend.png)
 
 #### Model comparison
-<img width="975" height="484" alt="image" src="https://github.com/user-attachments/assets/00b793f4-3f87-42a4-ae4a-51a37ffb956a" />
-
+![Model Comparison by Test PR-AUC](dashboards/screenshots/model-comparison-by-test-pr-auc.png)
 
 #### Best model confusion matrix
-<img width="667" height="601" alt="image" src="https://github.com/user-attachments/assets/dfddd7d1-d36c-42ea-858e-4ea51bab4d44" />
-
+![Best Model Confusion Matrix](dashboards/screenshots/best-model-confusion-matrix.png)
 
 #### Top feature importances
-<img width="984" height="584" alt="image" src="https://github.com/user-attachments/assets/84aef590-9fa4-4cfc-a507-a571c2cb6fe0" />
-
+![Top 15 Feature Importances](dashboards/screenshots/top-15-feature-importances.png)
 
 #### Sensitivity check
-<img width="884" height="484" alt="image" src="https://github.com/user-attachments/assets/03671e98-40cd-4050-a2a0-2ac81ede4f59" />
-
+![Sensitivity Check Top 10 vs Top 20](dashboards/screenshots/sensitivity-check-top-10-vs-top-20.png)
 
 See the full visual list here: [dashboards/VISUALS.md](dashboards/VISUALS.md)
 
