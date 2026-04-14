@@ -103,7 +103,8 @@ All saved notebook visuals are included in `dashboards/screenshots/`.
 
 
 ### Dashboard visuals
-<img width="1900" height="836" alt="image" src="https://github.com/user-attachments/assets/c44663fa-ebee-4b86-a48c-c4abfdec452f" />
+<img width="1891" height="799" alt="Screenshot 2026-04-13 160950" src="https://github.com/user-attachments/assets/b8679979-8205-4007-8368-1268874846ba" />
+
 
 
 <img width="1896" height="776" alt="image" src="https://github.com/user-attachments/assets/f7f30897-0a31-4875-a711-2ba041a2ca29" />
