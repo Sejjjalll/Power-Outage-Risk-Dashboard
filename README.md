@@ -3,7 +3,7 @@
 This project looks at outage risk across U.S. utilities by combining **EIA-861 reliability data** with **NOAA storm event records**.
 
 I wanted this analysis to go beyond a basic weather summary. The goal was to see where outage performance looks weak even after considering storm exposure, then turn that into a clean dataset and a dashboard-friendly workflow.
-
+  
 ---
 
 ## ✨ What’s inside
