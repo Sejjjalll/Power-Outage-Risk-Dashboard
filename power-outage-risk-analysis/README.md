@@ -107,7 +107,8 @@ All saved notebook visuals are included in `dashboards/screenshots/`.
 ![Risk Category Distribution](dashboards/screenshots/risk-category-distribution.png)
 
 #### SAIDI vs SAIFI
-![SAIDI vs SAIFI](dashboards/screenshots/saidi-vs-saifi.png)
+<img width="782" height="584" alt="image" src="https://github.com/user-attachments/assets/320854e2-59ad-49de-8a22-f55b1c29579a" />
+
 
 #### Top event types
 ![Top 15 Event Types](dashboards/screenshots/top-15-event-types.png)
