@@ -97,9 +97,20 @@ The sensitivity check also showed:
 
 ---
 
-## 📈 Dashboard visuals saved in this repo
+## 📈 Dashboard visuals And Outputs saved in this repo
 
 All saved notebook visuals are included in `dashboards/screenshots/`.
+### Dashboard visuals
+<img width="1900" height="836" alt="image" src="https://github.com/user-attachments/assets/c44663fa-ebee-4b86-a48c-c4abfdec452f" />
+
+
+<img width="1896" height="776" alt="image" src="https://github.com/user-attachments/assets/f7f30897-0a31-4875-a711-2ba041a2ca29" />
+
+<img width="1893" height="502" alt="image" src="https://github.com/user-attachments/assets/6b188a91-85eb-452a-8f71-cc39239d9c53" />
+
+<img width="1890" height="397" alt="image" src="https://github.com/user-attachments/assets/201540df-e59f-41a0-b37c-ebdad373322c" />
+
+<img width="1895" height="600" alt="image" src="https://github.com/user-attachments/assets/f0fd99c2-9e51-46a8-8fe8-521c90da6e8c" />
 
 ### Preview
 
