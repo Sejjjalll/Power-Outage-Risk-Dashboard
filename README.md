@@ -216,4 +216,4 @@ It works well as both an analytics project and a portfolio piece because it show
 ## 👩‍💻 Author
 
 **Sejal Khade**  
-Data Analyst | SQL | Python | Power BI | Tableau
+Data Analyst | SQL | Python | Power BI | Tableau | Machine Learning 
