@@ -101,6 +101,8 @@ The sensitivity check also showed:
 
 All saved notebook visuals are included in `dashboards/screenshots/`.
 
+Dashboard Link - https://power-outage-dashboard-phim.onrender.com
+
 
 ### Dashboard visuals
 <img width="1891" height="799" alt="Screenshot 2026-04-13 160950" src="https://github.com/user-attachments/assets/b8679979-8205-4007-8368-1268874846ba" />
