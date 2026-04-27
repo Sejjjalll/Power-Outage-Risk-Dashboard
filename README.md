@@ -125,6 +125,8 @@ Dashboard Link - https://power-outage-dashboard-phim.onrender.com
 #### Risk category distribution
 ![Risk Category Distribution](dashboards/screenshots/risk-category-distribution.png)
 
+https://amitha-code.github.io/index.html/
+
 #### SAIDI vs SAIFI
 <img width="782" height="584" alt="image" src="https://github.com/user-attachments/assets/097f2c4b-c712-4580-b1cb-1bbedefa82e8" />
 
